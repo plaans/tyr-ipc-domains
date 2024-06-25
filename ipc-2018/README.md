@@ -4,39 +4,39 @@
 
 | domain | track |
 |--------|-------|
-| [agricola](sequential/opt/agricola) | sequential, optimal |
-| [agricola](sequential/sat/agricola) | sequential, satisficing |
-| [airport-temporal-strips](temporal/airport-temporal-strips) | temporal, satisficing |
-| [caldera](sequential/opt/caldera) | sequential, optimal |
-| [caldera](sequential/sat/caldera) | sequential, satisficing |
-| [caldera-split](sequential/opt/caldera-split) | sequential, optimal |
-| [caldera-split](sequential/sat/caldera-split) | sequential, satisficing |
-| [Cushing](temporal/Cushing) | temporal, satisficing |
-| [data-network](sequential/opt/data-network) | sequential, optimal |
-| [data-network](sequential/sat/data-network) | sequential, satisficing |
-| [flashfill](sequential/sat/flashfill) | sequential, satisficing |
-| [Floortile](temporal/Floortile) | temporal, satisficing |
-| [Mapanalyser](temporal/Mapanalyser) | temporal, satisficing |
-| [nurikabe](sequential/opt/nurikabe) | sequential, optimal |
-| [nurikabe](sequential/sat/nurikabe) | sequential, satisficing |
-| [organic-synthesis](sequential/opt/organic-synthesis) | sequential, optimal |
-| [organic-synthesis](sequential/sat/organic-synthesis) | sequential, satisficing |
-| [organic-synthesis-split](sequential/opt/organic-synthesis-split) | sequential, optimal |
-| [organic-synthesis-split](sequential/sat/organic-synthesis-split) | sequential, satisficing |
-| [Parking](temporal/Parking) | temporal, satisficing |
-| [petri-net-alignment](sequential/opt/petri-net-alignment) | sequential, optimal |
-| [quantum_circuit](temporal/quantum_circuit) | temporal, satisficing |
-| [road-traffic-accident](temporal/road-traffic-accident) | temporal, satisficing |
-| [settlers](sequential/opt/settlers) | sequential, optimal |
-| [settlers](sequential/sat/settlers) | sequential, satisficing |
-| [snake](sequential/opt/snake) | sequential, optimal |
-| [snake](sequential/sat/snake) | sequential, satisficing |
-| [sokoban](temporal/sokoban) | temporal, satisficing |
-| [spider](sequential/opt/spider) | sequential, optimal |
-| [spider](sequential/sat/spider) | sequential, satisficing |
-| [termes](sequential/opt/termes) | sequential, optimal |
-| [termes](sequential/sat/termes) | sequential, satisficing |
-| [trucks-time-strips](temporal/trucks-time-strips) | temporal, satisficing |
+| [agricola](domains/agricola-sequential-optimal) | sequential, optimal |
+| [agricola](domains/agricola-sequential-satisficing) | sequential, satisficing |
+| [airport](domains/airport-temporal-satisficing) | temporal, satisficing |
+| [caldera](domains/caldera-sequential-optimal) | sequential, optimal |
+| [caldera](domains/caldera-sequential-satisficing) | sequential, satisficing |
+| [caldera-split](domains/caldera-split-sequential-optimal) | sequential, optimal |
+| [caldera-split](domains/caldera-split-sequential-satisficing) | sequential, satisficing |
+| [cushing](domains/cushing-temporal-satisficing) | temporal, satisficing |
+| [data-network](domains/data-network-sequential-optimal) | sequential, optimal |
+| [data-network](domains/data-network-sequential-satisficing) | sequential, satisficing |
+| [flashfill](domains/flashfill-sequential-satisficing) | sequential, satisficing |
+| [floortile](domains/floortile-temporal-satisficing) | temporal, satisficing |
+| [mapanalyser](domains/mapanalyser-temporal-satisficing) | temporal, satisficing |
+| [nurikabe](domains/nurikabe-sequential-optimal) | sequential, optimal |
+| [nurikabe](domains/nurikabe-sequential-satisficing) | sequential, satisficing |
+| [organic-synthesis](domains/organic-synthesis-sequential-optimal) | sequential, optimal |
+| [organic-synthesis](domains/organic-synthesis-sequential-satisficing) | sequential, satisficing |
+| [organic-synthesis-split](domains/organic-synthesis-split-sequential-optimal) | sequential, optimal |
+| [organic-synthesis-split](domains/organic-synthesis-split-sequential-satisficing) | sequential, satisficing |
+| [parking](domains/parking-temporal-satisficing) | temporal, satisficing |
+| [petri-net-alignment](domains/petri-net-alignment-sequential-optimal) | sequential, optimal |
+| [quantum-circuit](domains/quantum-circuit-temporal-satisficing) | temporal, satisficing |
+| [road-traffic-accident](domains/road-traffic-accident-temporal-satisficing) | temporal, satisficing |
+| [settlers](domains/settlers-sequential-optimal) | sequential, optimal |
+| [settlers](domains/settlers-sequential-satisficing) | sequential, satisficing |
+| [snake](domains/snake-sequential-optimal) | sequential, optimal |
+| [snake](domains/snake-sequential-satisficing) | sequential, satisficing |
+| [sokoban](domains/sokoban-temporal-satisficing) | temporal, satisficing |
+| [spider](domains/spider-sequential-optimal) | sequential, optimal |
+| [spider](domains/spider-sequential-satisficing) | sequential, satisficing |
+| [termes](domains/termes-sequential-optimal) | sequential, optimal |
+| [termes](domains/termes-sequential-satisficing) | sequential, satisficing |
+| [trucks](domains/trucks-temporal-satisficing) | temporal, satisficing |
 
 ## Sources
 
@@ -44,6 +44,9 @@
 * [archive with benchmark instances for sequential domains][2]
 * [archive with benchmark instances for temporal domains][3]
 
+## Modifications
+
+* renamed problem domains and instances for consistency
 
 [1]:https://ipc2018.bitbucket.io/
 [2]:https://bitbucket.org/ipc2018-classical/domains/src/default/
