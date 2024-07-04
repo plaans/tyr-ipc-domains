@@ -1,10 +1,10 @@
-# PDDL Benchmark Instances
+# PDDL and HDDL Benchmark Instances
 
-> PDDL instances covering the International Planning Competitions
+> PDDL and HDDL instances covering the International Planning Competitions
 
 ## Overview
 
-This repository contains PDDL benchmark instances in a **consistent structure.**
+This repository contains PDDL and HDDL benchmark instances in a **consistent structure.**
 
 Currently, this repository covers the benchmark instances of the **International Planning Competitions** (IPC).
 
@@ -12,9 +12,9 @@ Currently, this repository covers the benchmark instances of the **International
 
 For each IPC domain, there is a top-level readme containing an informal description of the domain.
 
-Problem instances reside in the `instances` subdirectory and are of the form `instance-x.pddl`, where `x` ≥ 1 (without leading zeros).
+Problem instances reside in the `instances` subdirectory and are of the form `instance-x.pddl` or `instance-x.hddl`, where `x` ≥ 1 (without leading zeros).
 
-With most domains, there is only one domain description for all instances, `domain.pddl`.
+With most domains, there is only one domain description for all instances, `domain.pddl` or `domain.hddl`.
 In some cases, a proper domain is provided for each instance, in which case the domain descriptions are stored in a `domains` subdirectory.
 
 ## International Planning Competitions
@@ -30,3 +30,4 @@ The following International Planning Competitions are completely covered unless 
 1. [IPC 2011](ipc-2011) (19 domains, 54 variants), *deterministic track*
 1. [IPC 2014](ipc-2014) (23 domains, 66 variants), *deterministic track*
 1. [IPC 2018](ipc-2018) (22 domains, 33 variants), *deterministic track*
+1. [IPC 2020](ipc-2020) (23 domains, 33 variants), *deterministic track*
