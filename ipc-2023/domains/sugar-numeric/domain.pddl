@@ -17,7 +17,7 @@
 
 	(:predicates
 		(available ?m - mill)
-		(has-resource ?r - raw-cane ?m - mill)
+		;(has-resource ?r - raw-cane ?m - mill)
 		(produce ?m - mill ?b - brand)
 		(current-process ?m - mill ?b - brand)
 		(change-process ?b1 ?b2 - brand)
