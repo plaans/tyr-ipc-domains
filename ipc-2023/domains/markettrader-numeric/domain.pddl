@@ -20,6 +20,7 @@
 	    (bought ?g - goods)
 	    (cash)
 	    (capacity)
+		(fuel-used) (fuel)  ; workaround: these are not used except in the initial state
 )
 
 (:action travel
