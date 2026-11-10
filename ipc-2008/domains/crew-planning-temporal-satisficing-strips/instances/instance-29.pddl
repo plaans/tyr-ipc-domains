@@ -16,13 +16,10 @@
 (:init
 	(currentday c1 d0)
 	(done_sleep c1 d0)
-	(available c1)
 	(currentday c2 d0)
 	(done_sleep c2 d0)
-	(available c2)
 	(currentday c3 d0)
 	(done_sleep c3 d0)
-	(available c3)
 	(initiated d1)
 	(next d0 d1)
 	(next d1 d2)

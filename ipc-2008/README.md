@@ -55,7 +55,7 @@
 
 * renamed problem domains and instances for consistency
 * per domain, replaced identical domain description files with single `domain.pddl` file
-
+* corrected `ipc-2008/crew-planning-temporal-satisficing-strips`: removed the `(available cX)` predicates init initial state. Its presence was allowing parallel activities for crew members.
 
 
 
