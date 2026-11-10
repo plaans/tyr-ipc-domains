@@ -1,0 +1,14 @@
+; Plan found with metric 12.006
+; Theoretical reachable cost 12.007
+; States evaluated so far: 202
+; States pruned based on pre-heuristic cost lower bound: 0
+; Time 0.50
+0.000: (light_match match0)  [5.000]
+0.001: (mend_fuse fuse0 match0)  [2.000]
+2.002: (mend_fuse fuse5 match0)  [2.000]
+3.004: (light_match match1)  [5.000]
+4.003: (mend_fuse fuse4 match1)  [2.000]
+6.004: (mend_fuse fuse3 match1)  [2.000]
+7.006: (light_match match2)  [5.000]
+8.005: (mend_fuse fuse2 match2)  [2.000]
+10.006: (mend_fuse fuse1 match2)  [2.000]

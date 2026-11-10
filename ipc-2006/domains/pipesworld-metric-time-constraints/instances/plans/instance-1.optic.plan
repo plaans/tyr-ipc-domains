@@ -1,0 +1,14 @@
+; Plan found with metric 12.005
+; States evaluated so far: 112
+; States pruned based on pre-heuristic cost lower bound: 0
+; Time 0.46
+; Dummy steps: 3
+0.000: (pop-unitarypipe s12 b4 a1 a2 b5 gasoleo gasoleo)  [2.000]
+0.000: (push-unitarypipe s13 b0 a1 a3 b2 rat-a rat-a)  [2.000]
+2.001: (pop-unitarypipe s13 b6 a1 a3 b0 lco rat-a)  [2.000]
+4.002: (pop-unitarypipe s13 b1 a1 a3 b6 gasoleo lco)  [2.000]
+6.003: (push-unitarypipe s12 b6 a1 a2 b4 lco gasoleo)  [2.000]
+6.003: (pop-unitarypipe s13 b2 a1 a3 b1 rat-a gasoleo)  [2.000]
+8.004: (push-unitarypipe s13 b0 a1 a3 b2 rat-a rat-a)  [2.000]
+8.004: (push-unitarypipe s12 b3 a1 a2 b6 oca1 lco)  [2.000]
+10.005: (push-unitarypipe s13 b5 a1 a3 b0 gasoleo rat-a)  [2.000]

@@ -1,0 +1,20 @@
+; Plan found with metric 868.804
+; Theoretical reachable cost 868.807
+; States evaluated so far: 428
+; States pruned based on pre-heuristic cost lower bound: 0
+; Time 1.12
+0.000: (drive truck1 l2 l3)  [356.800]
+356.801: (load package1 truck1 a1 l3)  [1.000]
+357.801: (drive truck1 l3 l1)  [73.100]
+430.901: (unload package1 truck1 a1 l1)  [1.000]
+431.902: (load package3 truck1 a1 l1)  [1.000]
+432.902: (drive truck1 l1 l3)  [73.100]
+506.002: (unload package3 truck1 a1 l3)  [1.000]
+507.003: (load package2 truck1 a2 l3)  [1.000]
+508.003: (load package3 truck1 a1 l3)  [1.000]
+509.003: (drive truck1 l3 l2)  [356.800]
+865.803: (unload package3 truck1 a1 l2)  [1.000]
+866.804: (unload package2 truck1 a2 l2)  [1.000]
+867.804: (deliver-ontime package1 l1)  [1.000]
+867.804: (deliver-ontime package3 l2)  [1.000]
+867.804: (deliver-ontime package2 l2)  [1.000]

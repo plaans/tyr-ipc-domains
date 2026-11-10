@@ -1,0 +1,14 @@
+; Plan found with metric 41.002
+; Theoretical reachable cost 41.003
+; States evaluated so far: 12
+; States pruned based on pre-heuristic cost lower bound: 0
+; Time 0.01
+0.000: (switch_on instrument0 satellite0)  [2.000]
+0.000: (turn_to satellite0 groundstation2 phenomenon6)  [5.000]
+5.001: (calibrate satellite0 instrument0 groundstation2)  [5.000]
+5.002: (turn_to satellite0 star5 groundstation2)  [5.000]
+10.002: (take_image satellite0 star5 instrument0 thermograph0)  [7.000]
+17.002: (turn_to satellite0 phenomenon6 star5)  [5.000]
+22.002: (take_image satellite0 phenomenon6 instrument0 thermograph0)  [7.000]
+29.002: (turn_to satellite0 phenomenon4 phenomenon6)  [5.000]
+34.002: (take_image satellite0 phenomenon4 instrument0 thermograph0)  [7.000]

@@ -1,0 +1,16 @@
+; States evaluated: 111
+; Cost: -0.000
+; Time 0.75
+; Dummy steps: 1
+0.000: (push-unitarypipe s12 b0 a1 a2 b4 oc1b lco)  [2.000]
+0.000: (pop-unitarypipe s13 b1 a1 a3 b5 lco oca1)  [2.000]
+2.001: (push-unitarypipe s12 b5 a1 a2 b0 oca1 oc1b)  [2.000]
+4.002: (push-unitarypipe s12 b2 a1 a2 b5 gasoleo oca1)  [2.000]
+6.003: (pop-unitarypipe s12 b4 a1 a2 b2 lco gasoleo)  [2.000]
+8.004: (push-unitarypipe s13 b2 a1 a3 b1 gasoleo lco)  [2.000]
+8.004: (pop-unitarypipe s12 b0 a1 a2 b4 oc1b lco)  [2.000]
+10.005: (push-unitarypipe s13 b3 a1 a3 b2 rat-a gasoleo)  [2.000]
+12.006: (push-unitarypipe s13 b4 a1 a3 b3 lco rat-a)  [2.000]
+14.007: (pop-unitarypipe s13 b1 a1 a3 b4 lco lco)  [2.000]
+16.008: (pop-unitarypipe s13 b3 a1 a3 b1 rat-a lco)  [2.000]
+18.009: (push-unitarypipe s12 b1 a1 a2 b0 lco oc1b)  [2.000]

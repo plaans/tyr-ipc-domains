@@ -1,0 +1,16 @@
+; Plan found with metric 57.006
+; Theoretical reachable cost 57.007
+; States evaluated so far: 266
+; States pruned based on pre-heuristic cost lower bound: 2
+; Time 0.33
+0.000: (calibrate rover0 camera0 objective1 waypoint3)  [5.000]
+0.000: (sample_rock rover0 rover0store waypoint3)  [8.000]
+5.001: (take_image rover0 waypoint3 objective1 camera0 high_res)  [7.000]
+8.001: (drop rover0 rover0store)  [1.000]
+12.002: (communicate_image_data rover0 general objective1 high_res waypoint3 waypoint0)  [15.000]
+27.003: (navigate rover0 waypoint3 waypoint1)  [5.000]
+32.004: (navigate rover0 waypoint1 waypoint2)  [5.000]
+37.005: (sample_soil rover0 rover0store waypoint2)  [10.000]
+37.005: (communicate_rock_data rover0 general waypoint3 waypoint2 waypoint0)  [10.000]
+47.006: (drop rover0 rover0store)  [1.000]
+47.006: (communicate_soil_data rover0 general waypoint2 waypoint2 waypoint0)  [10.000]

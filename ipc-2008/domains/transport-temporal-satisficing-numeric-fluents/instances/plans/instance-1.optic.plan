@@ -1,0 +1,11 @@
+; Plan found with metric 52.001
+; Theoretical reachable cost 52.002
+; States evaluated so far: 7
+; States pruned based on pre-heuristic cost lower bound: 0
+; Time 0.01
+0.000: (pick-up truck-2 city-loc-4 package-2)  [1.000]
+0.000: (pick-up truck-1 city-loc-3 package-1)  [1.000]
+1.000: (drive truck-1 city-loc-3 city-loc-2)  [50.000]
+1.000: (drive truck-2 city-loc-4 city-loc-3)  [45.000]
+46.001: (drop truck-2 city-loc-3 package-2)  [1.000]
+51.001: (drop truck-1 city-loc-2 package-1)  [1.000]

@@ -1,0 +1,9 @@
+; States evaluated: 21
+; Cost: 0.000
+; Time 0.41
+; Dummy steps: 6
+0.000: (go-out hoist0 depot1-1-2 loadarea)  [1.000]
+1.001: (lift hoist0 crate0 container-0-0 loadarea container0)  [2.000]
+3.001: (go-in hoist0 loadarea depot0-1-1)  [1.000]
+4.001: (drop hoist0 crate0 depot0-1-2 depot0-1-1 depot0)  [2.000]
+6.001: (go-out hoist0 depot0-1-1 loadarea)  [1.000]

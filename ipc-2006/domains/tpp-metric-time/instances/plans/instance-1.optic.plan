@@ -1,0 +1,9 @@
+; Plan found with metric 5805.124
+; States evaluated so far: 8
+; States pruned based on pre-heuristic cost lower bound: 0
+; Time 0.00
+0.000: (drive truck1 depot1 market1)  [1350.000]
+1350.001: (buy-all truck1 goods1 market1)  [1.000]
+1350.002: (load goods1 truck1 market1)  [17.000]
+1367.002: (drive truck1 market1 depot1)  [1350.000]
+2717.002: (unload truck1 goods1 depot1)  [17.000]

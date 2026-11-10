@@ -1,0 +1,9 @@
+; States evaluated: 80
+; Cost: 5.001
+; Time 0.15
+0.000: (action_type1 var1)  [5.000]
+0.000: (action_type1 var2)  [5.000]
+1.001: (action_type2 var2)  [4.000]
+1.001: (action_type2 var1)  [4.000]
+1.002: (action_type3 var2)  [1.000]
+1.002: (action_type3 var1)  [1.000]

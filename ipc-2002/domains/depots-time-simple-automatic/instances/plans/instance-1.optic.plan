@@ -1,0 +1,16 @@
+; Plan found with metric 27.001
+; Theoretical reachable cost 27.001
+; States evaluated so far: 22
+; States pruned based on pre-heuristic cost lower bound: 0
+; Time 0.02
+0.000: (lift hoist0 crate1 pallet0 depot0)  [1.000]
+0.000: (lift hoist1 crate0 pallet1 distributor0)  [1.000]
+0.000: (drive truck0 distributor1 distributor0)  [10.000]
+0.001: (load hoist0 crate1 truck1 depot0)  [3.000]
+3.001: (drive truck1 depot0 distributor0)  [10.000]
+10.001: (load hoist1 crate0 truck0 distributor0)  [3.000]
+13.001: (drive truck0 distributor0 distributor1)  [10.000]
+13.002: (unload hoist1 crate1 truck1 distributor0)  [4.000]
+13.002: (drop hoist1 crate1 pallet1 distributor0)  [1.000]
+23.001: (unload hoist2 crate0 truck0 distributor1)  [4.000]
+23.001: (drop hoist2 crate0 pallet2 distributor1)  [1.000]

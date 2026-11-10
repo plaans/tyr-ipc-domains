@@ -1,0 +1,11 @@
+; States evaluated: 76
+; Cost: 302.005
+; Time 0.08
+0.000: (walk driver1 s2 p1-2)  [79.000]
+0.000: (walk driver2 s2 p1-2)  [79.000]
+79.001: (walk driver2 p1-2 s1)  [29.000]
+108.002: (walk driver2 s1 p1-0)  [43.000]
+151.003: (walk driver2 p1-0 s0)  [80.000]
+231.004: (board-truck driver2 truck1 s0)  [1.000]
+232.005: (drive-truck truck1 s0 s1 driver2)  [70.000]
+273.005: (walk driver1 p1-2 s1)  [29.000]

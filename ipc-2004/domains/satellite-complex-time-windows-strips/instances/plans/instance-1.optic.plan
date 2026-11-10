@@ -1,0 +1,19 @@
+; Plan found with metric 1148.920
+; States evaluated so far: 710
+; States pruned based on pre-heuristic cost lower bound: 0
+; Time 1.19
+0.000: (switch_on instrument0 satellite0)  [2.000]
+0.000: (turn_to satellite0 groundstation2 phenomenon6)  [50.730]
+50.731: (calibrate satellite0 instrument0 groundstation2)  [5.900]
+50.732: (turn_to satellite0 phenomenon4 groundstation2)  [39.730]
+90.462: (take_image satellite0 phenomenon4 instrument0 thermograph0)  [7.000]
+97.462: (turn_to satellite0 phenomenon6 phenomenon4)  [2.098]
+99.560: (take_image satellite0 phenomenon6 instrument0 thermograph0)  [7.000]
+106.560: (turn_to satellite0 star5 phenomenon6)  [29.320]
+135.880: (take_image satellite0 star5 instrument0 thermograph0)  [7.000]
+143.001: (send_image satellite0 window0 star5 thermograph0)  [19.520]
+162.522: (send_image satellite0 window0 phenomenon6 thermograph0)  [6.000]
+168.523: (send_image satellite0 window0 phenomenon4 thermograph0)  [12.170]
+180.694: (send_image satellite0 window0 phenomenon6 thermograph0)  [6.000]
+186.695: (send_image satellite0 window0 phenomenon6 thermograph0)  [6.000]
+192.696: (send_image satellite0 window0 phenomenon6 thermograph0)  [6.000]

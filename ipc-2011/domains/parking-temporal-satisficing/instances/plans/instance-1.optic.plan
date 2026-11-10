@@ -1,0 +1,24 @@
+; Plan found with metric 23.011
+; Theoretical reachable cost 23.012
+; States evaluated so far: 121
+; States pruned based on pre-heuristic cost lower bound: 0
+; Time 1.31
+0.000: (move-curb-to-car car_02 curb_5 car_08)  [2.000]
+0.000: (move-car-to-car car_09 car_10 car_04)  [3.000]
+2.001: (move-car-to-curb car_01 car_05 curb_5)  [2.000]
+3.001: (move-car-to-car car_02 car_08 car_10)  [3.000]
+4.002: (move-curb-to-car car_05 curb_2 car_01)  [2.000]
+6.002: (move-car-to-car car_07 car_03 car_08)  [3.000]
+6.003: (move-car-to-curb car_02 car_10 curb_2)  [2.000]
+8.004: (move-car-to-car car_09 car_04 car_02)  [3.000]
+9.004: (move-curb-to-car car_10 curb_1 car_03)  [2.000]
+11.005: (move-curb-to-curb car_04 curb_6 curb_1)  [1.000]
+11.006: (move-car-to-car car_07 car_08 car_04)  [3.000]
+12.006: (move-car-to-curb car_06 car_00 curb_6)  [2.000]
+14.007: (move-car-to-car car_07 car_04 car_00)  [3.000]
+15.007: (move-curb-to-car car_08 curb_4 car_06)  [2.000]
+17.008: (move-curb-to-curb car_04 curb_1 curb_4)  [1.000]
+17.009: (move-car-to-car car_05 car_01 car_04)  [3.000]
+20.010: (move-curb-to-curb car_01 curb_5 curb_1)  [1.000]
+20.011: (move-car-to-car car_08 car_06 car_01)  [3.000]
+21.011: (move-car-to-curb car_05 car_04 curb_5)  [2.000]

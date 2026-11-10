@@ -1,0 +1,21 @@
+; States evaluated: 31
+; Cost: 1582.404
+; Time 0.20
+; Dummy steps: 3
+0.000: (drive truck1 l2 l3)  [356.800]
+356.801: (load package1 truck1 a1 l3)  [1.000]
+357.801: (drive truck1 l3 l1)  [73.100]
+430.901: (unload package1 truck1 a1 l1)  [1.000]
+431.902: (load package3 truck1 a1 l1)  [1.000]
+432.902: (drive truck1 l1 l3)  [73.100]
+506.002: (unload package3 truck1 a1 l3)  [1.000]
+507.003: (load package2 truck1 a1 l3)  [1.000]
+508.003: (drive truck1 l3 l2)  [356.800]
+864.803: (unload package2 truck1 a1 l2)  [1.000]
+865.803: (drive truck1 l2 l3)  [356.800]
+918.699: (deliver package1 l1)  [1.000]
+918.699: (deliver package2 l2)  [1.000]
+1222.603: (load package3 truck1 a1 l3)  [1.000]
+1223.603: (drive truck1 l3 l2)  [356.800]
+1580.403: (unload package3 truck1 a1 l2)  [1.000]
+1581.404: (deliver package3 l2)  [1.000]
