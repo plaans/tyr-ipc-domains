@@ -3,7 +3,7 @@
 
 (define (domain Storage-TimePreferences)
 (:requirements :typing :adl :durative-actions :preferences :constraints)
-(:types hoist surface place area - object
+(:types hoist surface place - object
 	container depot - place
 	storearea transitarea - area
 	area crate - surface)
